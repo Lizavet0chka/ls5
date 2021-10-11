@@ -1,0 +1,32 @@
+table {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+td {
+    text-align: center;
+    padding: 3px;
+}
+p {
+    font-weight: bold ;
+    font-size: 20px;
+    text-align: center;
+}
+
+#margin {
+    margin-top: 50px;
+    margin-right: 500px;
+}
+.italic {
+    font-style: italic ;
+}
+tr {
+    border-bottom: 1px solid black;
+}
+#top {
+    margin-bottom: 100px;
+}
+.c {
+    width: 100px; 
+    height: 100px;
+    background: #83A7C9;
+}
