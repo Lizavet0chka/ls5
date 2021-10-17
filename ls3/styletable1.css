@@ -35,6 +35,9 @@ li{
     text-decoration: none;
     padding: 10px 30px;
     color: #fff;
-    background-color: rgb(180, 214, 203);
+    background-color: rgb(216, 139, 216);
     border-radius: 5px;
+}
+.figure:hover {
+    background-color: rgb(245, 170, 245);
 }
