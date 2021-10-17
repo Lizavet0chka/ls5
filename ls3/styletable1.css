@@ -1,32 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+
 table {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+li{
+    list-style-type: none;
+}
+.main {
+    width: 1000px;
     
+    border-spacing: 2px;
 }
-td {
-    text-align: center;
-    padding: 3px;
+.left, .right {
+    border-radius: 5px;
+    margin: 0 15px;
+    padding: 0 25px;
+    -webkit-box-shadow: 0px 2px 15px 1px rgba(0,0,0,0.8); 
+    box-shadow: 0px 2px 15px 1px rgba(0,0,0,0.8);
 }
-p {
-    font-weight: bold ;
-    font-size: 20px;
+.left {
     text-align: center;
+    width: 300px;
 }
 
-#margin {
-    margin-top: 50px;
-    margin-right: 500px;
+.right {
+    width: 700px;
 }
-.italic {
-    font-style: italic ;
+.button {
+    text-align: center;
+    height: 50px;
 }
-tr {
-    border-bottom: 1px solid black;
-}
-#top {
-    margin-bottom: 100px;
-}
-.c {
-    width: 100px; 
-    height: 100px;
-    background: #83A7C9;
+.figure {
+    text-decoration: none;
+    padding: 10px 30px;
+    color: #fff;
+    background-color: rgb(180, 214, 203);
+    border-radius: 5px;
 }
