@@ -22,3 +22,6 @@ hr {
 td {
     height: 400px;
 }
+p {
+    font-weight: bold;
+}
