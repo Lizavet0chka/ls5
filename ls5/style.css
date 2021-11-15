@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.main-left {
+    background-color: rgb(240, 167, 240);
+    width: 20%;
+}
+.main-right {
+    background-color: rgb(169, 252, 255);
+    width: 80%;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    background-color: rgb(0, 75, 187);
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+footer {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 75, 187);
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.mid {
+    display: flex;
+    height: 600px;
+}
+ul {
+    line-height: 3;
+}
+li {
+    list-style-type: none;
+    -webkit-transition: all 0.5s ease;;
+    -moz-transition: all 0.5s ease;;
+    -o-transition: all 0.5s ease;;
+    transition: all 0.5s ease;
+}
+li:hover {
+    color: rgb(71, 181, 255);
+    font-weight: bold;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);                                                                        
+}
+img {
+    height: 250px;
+    width: 450px;
+    margin: 20px auto 0px; display:block;
+} 
+.articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.text-right {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.f {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(71, 181, 255);
+    transition: 1s;
+}
+.f1 {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(71, 181, 255);
+    transition: 1s;
+}
+.f2 {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(71, 181, 255);
+    transition: 1s;
+}
+.f:hover {
+    border-radius: 70%;
+    background-color: rgb(240, 167, 240);
+}
+.f1:hover {
+    border-radius: 70%;
+    background-color: rgb(240, 167, 240);
+}
+.f2:hover {
+    border-radius: 70%;
+    background-color: rgb(240, 167, 240);
+}
