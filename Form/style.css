@@ -1,0 +1,169 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(233, 233, 233);
+    font-family: "Montserrat-Light";
+}
+
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url(fonts/Montserrat-Light.ttf);
+}
+
+.main {
+    height: 500px;
+    width: 700px;
+    border-radius: 40px;
+    display: flex;
+    margin-top: 100px;
+}
+.main_left {
+    width: 390px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.main_right {
+    background-color: rgb(207, 103, 255);
+    width: 310px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+.right-text {
+    text-align: center;
+}
+.icons {
+    display: flex;
+    width: 170px;
+    justify-content: space-between;
+}
+img {
+    height: 20px;
+}
+.facebook {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: solid black 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-transition: all 1s ease;;
+  -moz-transition: all 1s ease;;
+  -o-transition: all 1s ease;;
+  transition: all 1s ease;
+}
+.facebook:hover {
+    box-shadow: inset 0 0 0 23px rgb(207, 103, 255);
+}
+.twitter {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: solid black 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-transition: all 1.5s ease;;
+  -moz-transition: all 1.5s ease;;
+  -o-transition: all 1.5s ease;;
+  transition: all 1.5s ease;
+}
+.twitter:hover {
+    box-shadow: inset 0 0 0 23px rgb(207, 103, 255);
+}
+.in {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: solid black 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-transition: all 1.5s ease;;
+  -moz-transition: all 1.5s ease;;
+  -o-transition: all 1.5s ease;;
+  transition: all 1.5s ease;
+}
+
+.in:hover {
+    box-shadow: inset 0 0 0 23px rgb(207, 103, 255);
+}
+
+#help {
+    text-decoration-line: none;
+    border-bottom: 1px dashed;
+    font-size: 12px;
+}
+.button1 {
+    width: 150px;
+    height: 30px;
+    background-color: rgb(207, 103, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 15px;
+    -webkit-transition: all 0.7s ease;;
+  -moz-transition: all 0.7s ease;;
+  -o-transition: all 0.7s ease;;
+  transition: all 0.7s ease;
+}
+.button1:hover {
+    background-color: rgba(207, 103, 255, 0.459);
+}
+#contact {
+    text-decoration: none;
+}
+.button2 {
+    height: 20px;
+    width: 70px;
+    border: solid white 2px;
+    border-radius: 15px;
+    transition: 1s;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+.button2:hover {
+    background-color: rgba(255, 255, 255, 0.568);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+#right-text {
+    width: 250px;
+}
+#button2 {
+    margin-top: 20px;
+}
+#textarea {
+    -moz-appearance: textfield-multiline;
+    -webkit-appearance: textarea;
+    border: 1px solid gray;
+    font: medium -moz-fixed;
+    font: -webkit-small-control;
+    height: 70px;
+    overflow: auto;
+    padding: 2px;
+    resize: both;
+    width: 250px;
+}
+#submit {
+    width: 150px;
+    height: 30pxS;
+}
+form {
+    height: 100px;
+}
+
